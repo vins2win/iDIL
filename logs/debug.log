@@ -7356,3 +7356,41 @@ Watching for file changes with StatReloader
 "GET /static/img/process.png HTTP/1.1" 304 0
 "GET / HTTP/1.1" 200 8432
 "GET / HTTP/1.1" 200 8432
+"GET /logout HTTP/1.1" 302 0
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 7029
+"GET /login HTTP/1.1" 200 7029
+"GET /employer/register HTTP/1.1" 200 8317
+"GET /employer/register HTTP/1.1" 200 8317
+Not Found: /employer/favicon.png
+Not Found: /employer/favicon.png
+"GET /employer/favicon.png HTTP/1.1" 404 4918
+"GET /employer/favicon.png HTTP/1.1" 404 4918
+"POST /employer/register HTTP/1.1" 302 0
+"POST /employer/register HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 6679
+"GET /login HTTP/1.1" 200 6679
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 8460
+"GET / HTTP/1.1" 200 8460
+"GET /employer/dashboard/ HTTP/1.1" 200 8445
+"GET /employer/dashboard/ HTTP/1.1" 200 8445
+Not Found: /employer/dashboard/favicon.png
+Not Found: /employer/dashboard/favicon.png
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 5828
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 5828
+"GET /employer/dashboard/all-applicants HTTP/1.1" 200 6276
+"GET /employer/dashboard/all-applicants HTTP/1.1" 200 6276
+"GET /employer/jobs/create HTTP/1.1" 200 13807
+"GET /employer/jobs/create HTTP/1.1" 200 13807
+"GET /static/vendor/bootstrap-select/css/bootstrap-select.min.css HTTP/1.1" 200 9777
+"GET /static/vendor/bootstrap-select/css/bootstrap-select.min.css HTTP/1.1" 200 9777
+Not Found: /employer/jobs/favicon.png
+Not Found: /employer/jobs/favicon.png
+"GET /employer/jobs/favicon.png HTTP/1.1" 404 4933
+"GET /employer/jobs/favicon.png HTTP/1.1" 404 4933
+"GET /logout HTTP/1.1" 302 0
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 7029
+"GET /login HTTP/1.1" 200 7029
