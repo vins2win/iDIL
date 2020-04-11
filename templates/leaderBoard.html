@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+
+    <section class="bg-light-gray">
+        <div class="container">
+            <h3 class="heading">LeaderBoard </h3>
+            <div class="row featured align-items-stretch">
+                {% for job in jobs %}
+                    <div class="col-lg-12 mb-12 mb-lg-0">
+                        <div class="box-image-text bg-visible full-height">
+                                <p>Position  1: {{ job.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}
